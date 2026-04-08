@@ -1,14 +1,14 @@
 # GDIM 33 In-Class Activities
 ## W1
 ### Activity 1
-Put your inspo board link here. Do NOT leave a bare URL. REMOVE ALL INSTRUCTIONAL TEXT.
+(Inspo board)[https://miro.com/app/board/uXjVGlExVY4=/]
 
-1. Put your activity 1 answers here.
-2. Please keep the proper list format.
+1. I want to aim for a cozy cute game with maybe sea animals and underwater sort of vibe. Mechanics-wise, I seem to like working in a service environment like Maltese Fluffy Onsen. 
+2 and 3 - not able to say because I wasn't present for the first class. 
 
 
 ### Activity 2
-Put your activity 2 image here. REMOVE THIS INSTRUCTIONAL TEXT.
+(Breakdown)[https://docs.google.com/drawings/d/1GNimpx5XdPKwFSVFiU2Agzm4_66mtcznAwJ61EFyoCg/edit]
 
 
 ## W2
