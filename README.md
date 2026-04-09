@@ -12,6 +12,6 @@
 
 
 ## W2
-Write your W2 Devlog here.
+I pushed the changes I made in activity. 
 
 Continue adding additional headers below this one for future weeks and future activities.
