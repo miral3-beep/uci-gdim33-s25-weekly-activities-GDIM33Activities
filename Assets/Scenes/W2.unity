@@ -552,8 +552,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"speed","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"confettiObj","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1278244685}
 --- !u!114 &618201392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -744,6 +746,80 @@ Transform:
   m_Children: []
   m_Father: {fileID: 404980499}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1278244685 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7833463171696160981, guid: f243afffdc564417e9c2d1639b72f512,
+    type: 3}
+  m_PrefabInstance: {fileID: 1414214498}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1414214498
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6773843029614670276, guid: f243afffdc564417e9c2d1639b72f512,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773843029614670276, guid: f243afffdc564417e9c2d1639b72f512,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773843029614670276, guid: f243afffdc564417e9c2d1639b72f512,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773843029614670276, guid: f243afffdc564417e9c2d1639b72f512,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6134302
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773843029614670276, guid: f243afffdc564417e9c2d1639b72f512,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.78974897
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773843029614670276, guid: f243afffdc564417e9c2d1639b72f512,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773843029614670276, guid: f243afffdc564417e9c2d1639b72f512,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773843029614670276, guid: f243afffdc564417e9c2d1639b72f512,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -104.324
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773843029614670276, guid: f243afffdc564417e9c2d1639b72f512,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773843029614670276, guid: f243afffdc564417e9c2d1639b72f512,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7833463171696160981, guid: f243afffdc564417e9c2d1639b72f512,
+        type: 3}
+      propertyPath: m_Name
+      value: CelebrateVFX
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f243afffdc564417e9c2d1639b72f512, type: 3}
 --- !u!1 &1637674457
 GameObject:
   m_ObjectHideFlags: 0
@@ -1241,8 +1317,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"confettiObj","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1278244685}
 --- !u!1 &2056631614
 GameObject:
   m_ObjectHideFlags: 0
@@ -6189,3 +6267,4 @@ SceneRoots:
   - {fileID: 618201386}
   - {fileID: 1975751032}
   - {fileID: 1724996179}
+  - {fileID: 1414214498}
